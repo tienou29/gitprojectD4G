@@ -1,3 +1,3 @@
 <?php
-    echo "Salut l'équipe"
+    echo "Salut l'équipe";
 ?>
