@@ -22,7 +22,7 @@ import streamlit as st
 
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-bd_bonnespratiques = current_dir / "bd" / "bonnespratiques.csv"
+bd_bonnespratiques = current_dir / "assets" / "bonnespratiques.csv"
 
 
 # --- OPENING DATA ---
@@ -48,57 +48,7 @@ df.to_csv("bonnespratiquesCLEANED.csv")
 
 
 
-# --- WEBSITE TRASH TEST ---
 
-def main():
-
-
-    st.markdown("<h1 style='text-align: center; color: green;'>Les bonnes pratiques d'écoconception</h1>", unsafe_allow_html=True)
-    
-    
-    selector = st.selectbox('Famille', df['Famille'].unique())
-    
-    selector2 = st.selectbox('Planet', df["Planet"].unique())
-    
-    selector3 = st.selectbox('Priorité', df["Priorité"].unique())
-    
-    values = df[(df["Famille"] == selector) & (df["Planet"] == selector2) & (df['Priorité'] == selector3)] 
-    
-    hide_table_row_index = """
-            <style>
-            thead tr th:first-child {display:none}
-            tbody th {display:none}
-            </style>
-            """
-            
-    st.markdown(hide_table_row_index, unsafe_allow_html=True)
-    
-    
-    st.write('### Full Dataset', values)
-    
-    selected_indices = st.multiselect('''Ecrivez l'index du service souhaité:''', df.index)
-    selected_rows = df.loc[selected_indices]
-    st.write('### Votre Panier', selected_rows)
-    
-    st.write('#### Télécharger votre panier')
-    
-    def convert_df(df):
-        return df.to_csv(index=False).encode('utf-8')
-
-
-    csv = convert_df(selected_rows)
-
-    st.download_button(
-        "Press to Download",
-        csv,
-        "votrepanier.csv",
-        "text/csv",
-        key='download-csv'
-        )
-
-    
-main()
-    
         
         
         
