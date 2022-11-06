@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+
+h1{
+    text-shadow: 3px 3px 3px #ababab;
+    font-style: oblique;
+    color: #FFFFFF;
+}
+h3 {
+    
+    color: #FFFFFF;
+}
+
+.css-81oif8{
+
+    
+    color: #FFFFFF;
+}

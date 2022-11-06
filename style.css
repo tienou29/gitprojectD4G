@@ -7,9 +7,11 @@ h1 {
     font-style: oblique;
     text-shadow: 3px 3px 3px #ababab;
     font-family: Helvetica, sans-serif;
+    font-family: Garamond, serif;
+    color: #FFFFFF;
 }
 
 p {
-    font-family: Garamond, serif;
+    
 }
 
