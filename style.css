@@ -1,7 +1,37 @@
-h1, p {
-    text-align: center;
-    
+body {
+    background-image: url('images/background1.jpg');
+    background-size: 100% 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+   
+  }
+
+.navigBar {
+    background-color:  	#2a623d;
+    overflow: hidden;
 }
+
+.navigBar a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigBar a:hover {
+    background-color:  #5d5d5d;
+    color: black;
+  }
+
+.navigBar a.active {
+    background-color: #1a472a;
+    color: white;
+}
+
 
 h1 {
     font-style: oblique;
@@ -9,9 +39,17 @@ h1 {
     font-family: Helvetica, sans-serif;
     font-family: Garamond, serif;
     color: #FFFFFF;
+    text-align: center;
 }
 
 p {
-    
+    text-align: center;
+    color: #ececec;
+}
+
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 3px 3px 3px #ababab;
 }
 
