@@ -29,7 +29,7 @@ bd_bonnespratiques = current_dir / "assets" / "bonnespratiques.csv"
 
 df = pd.read_csv(bd_bonnespratiques)
 
-# --- CLEANING DATA ---
+# --- CLEANING DATA ----
 
 df = df.drop(df.index[0])
 del df['Unnamed: 1']
