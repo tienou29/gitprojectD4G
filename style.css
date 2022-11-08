@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
-   
+    padding-bottom:60px;
   }
 
 .navigBar {
@@ -58,13 +58,14 @@ p {
 h3 {
     color: #FFFFFF;
     text-align: center;
-    text-shadow: 3px 3px 3px #ababab;
 }
 
 footer{
-
     text-align: center; 
-    padding: 1px 0;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   
 }
 .fa {
     padding: 20px;
@@ -92,3 +93,65 @@ footer{
     background: #55ACEE;
     color: white;
   }
+
+
+@media screen and (max-width: 1024px){
+
+  
+}
+
+/* sous 425 pixels le background commence à être moche */
+@media screen and (max-width:  425px){
+
+  h1 {
+    font-style: oblique;
+    text-shadow: 3px 3px 3px #ababab;
+    font-family: Helvetica, sans-serif;
+    font-family: Garamond, serif;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    color: black;
+    background-color: rgba(25, 111, 61, 0.5);
+    width: 300px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+  h3{
+    color: black;
+  
+  }
+
+
+  body {
+    background: none;
+  }
+  
+}
+
+/* sous 320 pixels la nav bar deconne */
+@media screen and (max-width: 320px){
+
+  p{
+    width: 256px;
+  }
+  
+}
+
+@media screen and (max-width: 256px){
+
+  p{
+    width: 204px;
+  }
+  
+}
+
+
+
+
