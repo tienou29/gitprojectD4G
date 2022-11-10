@@ -1,5 +1,5 @@
 # gitprojectD4G
-Design for Green avec Jo, Bryan et ?
+Design for Green avec Jo, Bryan, Nirvana et Etienne
 
 # Le Design4Green, c’est quoi ?
 Challenge de 48h non-stop d'écoconception numérique. Défiez les nouveaux talents de demain sur un sujet concocté par l'Institut du Numérique Responsable (INR) !
