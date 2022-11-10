@@ -1,64 +1,104 @@
 body {
-    background-image: url('images/background1.jpg');
-    background-size: 100% 100%;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  font-size: 1rem;
+} 
+
+
+  ul {
+    list-style-type: none;
     margin: 0;
-    padding-bottom:60px;
-  }
-
-.navigBar {
-    background-color:  	#2a623d;
+    padding: 0;
     overflow: hidden;
-}
-
-.navigBar a{
+    background-color: #333;
+  }
+  
+  li {
     float: left;
-    color: #000000;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    display: inline-block;
-    width: 100%;
-}
-
-.navigBar a:hover {
-    background-color:  #5d5d5d;
-    color: black;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
 
-.navigBar a.active {
-    background-color: #1a472a;
-    color: white;
+.navigBar img{
+  width:30px;
+  height:30px;
 }
+
 
 
 h1 {
-    font-style: oblique;
-    text-shadow: 3px 3px 3px #ababab;
-    font-family: Helvetica, sans-serif;
-    font-family: Garamond, serif;
-    color: #FFFFFF;
+    font-family: Arial;
+    color: #333;
     text-align: center;
 }
 
 p {
     text-align: center;
-    color: #ececec;
-    background-color: rgba(116, 153, 46, 0.5);
-    width: 300px;
-    border: 2px solid green;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     display:block;
+    font-family: Arial;
 }
 
 h3 {
-    color: #FFFFFF;
+    font-family: Arial;
+    color: #333;
     text-align: center;
 }
+
+.selectors * {
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  font-family: Arial;
+  padding: 6px 30px;
+  width: 200px;
+}
+.selectors select {
+  background-color: #5E2750;
+  color: white;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.select {
+  padding: 0 0 0.5em;
+}
+
+.telechargement{
+  text-align:center;
+}
+
+.btn {
+  background-color: #5E2750;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #77216F;
+}
+
 
 footer{
     text-align: center; 
@@ -131,6 +171,11 @@ footer{
 
   body {
     background: none;
+  }
+
+  .navigBar img{
+    width:30px;
+    height:30px;
   }
   
 }
