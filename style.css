@@ -3,7 +3,7 @@ body {
 } 
 
 
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,11 +11,11 @@ body {
     background-color: #333;
   }
   
-  li {
+li {
     float: left;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ body {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #111;
   }
 
@@ -94,6 +94,49 @@ h3 {
 
 .select {
   padding: 0 0 0.5em;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  margin: 1px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 .telechargement{
@@ -182,7 +225,6 @@ footer{
 
   h3{
     color: black;
-    font-family : "Bembo";
   
   }
 
@@ -214,7 +256,3 @@ footer{
   }
   
 }
-
-
-
-
