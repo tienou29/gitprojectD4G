@@ -1,0 +1,242 @@
+body {
+  font-size: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  margin: 1px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.navigBar img{
+  width:30px;
+  height:30px;
+}
+
+
+
+h1 {
+    font-family: Arial;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    font-family: Arial;
+}
+
+h3 {
+    font-family: Arial;
+    color: #333;
+    text-align: center;
+}
+
+.selectors * {
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  font-family: Arial;
+  padding: 6px 30px;
+  width: 200px;
+}
+.selectors select {
+  background-color: #5E2750;
+  color: white;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.select {
+  padding: 0 0 0.5em;
+}
+
+.telechargement{
+  text-align:center;
+}
+
+.btn {
+  background-color: #5E2750;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #77216F;
+}
+
+
+footer{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    position: fixed;
+    width:100%;
+    height:60px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+@media screen and (max-width: 1024px){
+
+
+}
+
+/* sous 425 pixels le background commence à être moche */
+@media screen and (max-width:  425px){
+
+  h1 {
+    font-style: oblique;
+    text-shadow: 3px 3px 3px #ababab;
+    font-family: Helvetica, sans-serif;
+    font-family: Garamond, serif;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    color: black;
+    background-color: rgba(25, 111, 61, 0.5);
+    width: 300px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+  h3{
+    color: black;
+
+  }
+
+
+  body {
+    background: none;
+  }
+
+  .navigBar img{
+    width:30px;
+    height:30px;
+  }
+
+}
+
+/* sous 320 pixels la nav bar deconne */
+@media screen and (max-width: 320px){
+
+  p{
+    width: 256px;
+  }
+
+}
+
+@media screen and (max-width: 256px){
+
+  p{
+    width: 204px;
+  }
+
+}
