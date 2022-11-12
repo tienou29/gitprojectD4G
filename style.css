@@ -1,6 +1,56 @@
 body {
   font-size: 1rem;
-} 
+}
+
+.flex-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 50px;
+  text-align: center;
+  font-family : "Bembo";
+  line-height: 30px;
+  font-size: 15px;
+  border: solid 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(94, 39, 80, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.styled:hover {
+    background-color: rgba(119, 33, 111, 1)
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
 
 ul {
@@ -10,11 +60,12 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+
 li {
     float: left;
   }
-  
+
+
 li a {
     display: block;
     color: white;
@@ -22,7 +73,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
@@ -98,15 +149,15 @@ h3 {
 
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  padding: 30px;
   flex-wrap: wrap;
-  justify-content:flex-start;
+  justify-content:center;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 250px;
-  margin: 1px;
+  width: 200px;
+  margin: 50px;
   text-align: center;
   line-height: 30px;
   font-size: 15px;
@@ -160,12 +211,12 @@ h3 {
 
 
 footer{
-    text-align: center; 
     position:absolute;
     bottom:0;
+    left: 0;
+    position: fixed;
     width:100%;
-    height:60px;   
-    font-family : "Bembo";
+    height:60px;
 }
 .fa {
     padding: 20px;
@@ -174,20 +225,20 @@ footer{
     text-align: center;
     text-decoration: none;
   }
-  
+
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
-  
+
   /* Set a specific color for each brand */
-  
+
   /* Facebook */
   .fa-instagram {
     background: #125688;
     color: white;
   }
-  
+
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
@@ -197,7 +248,7 @@ footer{
 
 @media screen and (max-width: 1024px){
 
-  
+
 }
 
 /* sous 425 pixels le background commence à être moche */
@@ -225,7 +276,7 @@ footer{
 
   h3{
     color: black;
-  
+
   }
 
 
@@ -237,7 +288,7 @@ footer{
     width:30px;
     height:30px;
   }
-  
+
 }
 
 /* sous 320 pixels la nav bar deconne */
@@ -246,7 +297,7 @@ footer{
   p{
     width: 256px;
   }
-  
+
 }
 
 @media screen and (max-width: 256px){
@@ -254,5 +305,5 @@ footer{
   p{
     width: 204px;
   }
-  
+
 }
