@@ -91,7 +91,7 @@
         $arList = $redis->keys("*");
         ?>
 
-        <h1>Selectionnez vos contraintes</h1>
+        <h3>Selectionnez vos solutions</h3>
 
         <div class="flex-container">
 

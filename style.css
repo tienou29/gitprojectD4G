@@ -254,37 +254,7 @@ footer{
 /* sous 425 pixels le background commence à être moche */
 @media screen and (max-width:  425px){
 
-  h1 {
-    font-style: oblique;
-    text-shadow: 3px 3px 3px #ababab;
-    font-family: Helvetica, sans-serif;
-    font-family: Garamond, serif;
-    color: black;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-    color: black;
-    background-color: rgba(25, 111, 61, 0.5);
-    width: 300px;
-    border: 2px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-}
-
-  h3{
-    color: black;
-
-  }
-
-
-  body {
-    background: none;
-  }
-
-  .navigBar img{
+.navigBar img{
     width:30px;
     height:30px;
   }
@@ -294,16 +264,9 @@ footer{
 /* sous 320 pixels la nav bar deconne */
 @media screen and (max-width: 320px){
 
-  p{
-    width: 256px;
-  }
 
 }
 
 @media screen and (max-width: 256px){
-
-  p{
-    width: 204px;
-  }
 
 }
