@@ -154,9 +154,8 @@ for ($i = 1; $i < count($arList); $i++) {
 
         <h3>Telechargez votre tableau</h3>
 
-        <div class="telechargement">
-            <button class="btn"><i class="download" alt="telechargement de votre ..."></i> Download</button>
-        </div>
+        <a href="https://google.com" class="lolhehe">Download</a>
+        
     </div>
 
 
