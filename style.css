@@ -191,9 +191,6 @@ h3 {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.telechargement{
-  text-align:center;
-}
 
 .lolhehe {
   background-color: #5E2750;
@@ -203,10 +200,12 @@ h3 {
   cursor: pointer;
   font-size: 15px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-  justify-content: center;
 }
 
-
+.downl{
+  display: flex;
+  justify-content: center;
+}
 
 /* Darker background on mouse-over */
 .a.lolhehe:hover {
@@ -222,10 +221,9 @@ a.lolhehe {
 }
 
 footer{
-    position:absolute;
+    padding-top: 7px;
     bottom:0;
     left: 0;
-    position: fixed;
     width:100%;
     height:60px;
 }
