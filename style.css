@@ -1,5 +1,6 @@
 body {
   font-size: 1rem;
+  zoom: 125%;
 }
 
 .flex-container {
@@ -194,7 +195,7 @@ h3 {
   text-align:center;
 }
 
-.btn {
+.lolhehe {
   background-color: #5E2750;
   border: none;
   color: white;
@@ -202,13 +203,23 @@ h3 {
   cursor: pointer;
   font-size: 15px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  justify-content: center;
 }
+
+
 
 /* Darker background on mouse-over */
-.btn:hover {
+.a.lolhehe:hover {
   background-color: #77216F;
+  cursor: pointer;
 }
 
+a.lolhehe {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  justify-content: center;
+}
 
 footer{
     position:absolute;
@@ -254,6 +265,10 @@ footer{
 /* sous 425 pixels le background commence à être moche */
 @media screen and (max-width:  425px){
 
+.body{
+  zoom:100%;
+}
+
 .navigBar img{
     width:30px;
     height:30px;
@@ -262,11 +277,13 @@ footer{
 }
 
 /* sous 320 pixels la nav bar deconne */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
 
-
+body{
+  zoom:100%;
 }
 
-@media screen and (max-width: 256px){
 
+  
 }
+
