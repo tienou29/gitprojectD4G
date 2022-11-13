@@ -1,0 +1,16 @@
+
+####################################################################################
+
+nombre de ligne total    :555
+nombre de incontournable :43
+STRATEGIE ==> 4
+SPECIFICATIONS ==> 5
+UX/UI ==> 12
+CONTENUS ==> 4
+ARCHITECTURE ==> 3
+FRONTEND ==> 5
+BACKEND ==> 4
+HEBERGEMENT ==> 6
+
+
+
