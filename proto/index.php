@@ -12,25 +12,17 @@
 
     <title> Design 4 Green </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="gitprojectD4G/images/favicon.ico">
 
 </head>
 
-<div class="navigBar">
-    <ul>
-        <li><a class="active" href="#MAIN">Acceuil 🏠</a></li>
-        <li><a href="#contact">Panier 🛒</a></li>
-        <li style="float:right"><a class="active" href="https://design4green.org/">About 🔎</a></li>
-    </ul>
-</div>
-
 <body>
-
-    <div class="nav">
-
-        <nav class="navi">
-
-        </nav>
+    <div class="navigBar">
+        <ul>
+            <li><a class="active" href="index.php">Acceuil 🏠</a></li>
+            <li><a href="panier.php">Panier 🛒</a></li>
+            <li style="float:right"><a class="active" href="https://design4green.org/">About 🔎</a></li>
+        </ul>
     </div>
 
     <div class="content">
